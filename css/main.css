@@ -1,0 +1,14 @@
+/*
+**  main.css
+**  version 0.1
+*/
+
+html {
+    height: 100%
+}
+
+body {
+    background-image: linear-gradient(cyan, transparent),
+    linear-gradient(225deg, magenta, transparent),
+    linear-gradient(45deg, yellow, transparent);
+}

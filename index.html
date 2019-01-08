@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>armitalab wellness-консультант</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+
+    <script type="text/javascript" src="js/popup.js"></script>
+    <script type="text/javascript" src="js/select.js"></script>
+
+</head>
+<body>
+
+    <div class="pop">
+        <a href="#win1" class="button">Заказать звонок</a>
+        <a href="#win2" class="button">Принять звонок</a>
+    </div>
+
+
+    <a href="#x" class="overlay" id="win1"></a>
+    <div class="popup">
+        <p href="#x" class="armitalab">armitaLab</p>
+        <p class="wellness">wellness-консультант</p>
+        <p class="collring">Заказать звонок</p><br/>
+        <form name='myForm' action="#">
+            <p class="block">
+                <label class="label_1">Время с:</label>
+                <select class="turnintodropdown" id="a1" name="a1">
+                    <option>Выберите время звонка:</option>
+                </select>
+                <label class="label_2">по:</label>
+                <select class="turnintodropdown" id="a2" name="a2">
+                    <option>Выберите время звонка:</option>
+                </select>
+            </p>
+        </form>
+        <a class="close" title="Закрыть" href="#close">CLOSE</a>
+    </div>
+
+    <a href="#x" class="overlay" id="win2"></a>
+    <div class="popup">
+        <p href="#x" class="superlab">superLab</p>
+        <p class="wellness">Тестовое окно</p>
+        <p class="collring">Принять звонок</p><br/>
+        <a class="close" title="Закрыть" href="#close">CLOSE</a>
+    </div>
+
+</body>
+</html>

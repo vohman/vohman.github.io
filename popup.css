@@ -1,0 +1,11 @@
+/*
+**  popup.css -> popup.html
+**  version: 0.1
+**  author:  Vohman
+*/
+
+@import url(css/reset.css);
+@import url(css/main.css);
+@import url(css/but.css);
+@import url(css/sel.css);
+@import url(css/win.css);
